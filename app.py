@@ -4,7 +4,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-
+token = "{flag}git_challenge_surpass"
 
 
 @app.route("/")
